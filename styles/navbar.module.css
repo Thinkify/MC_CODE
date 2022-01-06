@@ -1,0 +1,34 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 3rem;
+    background-image: linear-gradient(15deg, #13547a 0%, #80d0c1 100%);
+}
+.navbarLogo {
+    cursor: pointer;
+    font-weight: 300;
+    font-size: 2rem;
+}
+
+.NavbarList {
+    display: flex;
+    list-style: none;
+    
+}
+
+.NavbarList li {
+    margin: 0 1rem;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 1.2rem;
+    transition: all .4s ease-in-out;
+}
+.NavbarList li span {
+    margin-right: 0.6rem;
+}
+
+.NavbarList li:hover{
+    color: aliceblue;
+
+}
